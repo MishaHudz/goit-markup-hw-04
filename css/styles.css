@@ -46,6 +46,10 @@ ol {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-header {
   border-bottom: 1px solid var(--tertiary-accent-color);
 }
@@ -199,6 +203,7 @@ ol {
 .btn.secondary:hover,
 .btn.secondary:focus {
   background-color: var(--focus-hover-color);
+  outline: transparent;
 }
 
 .btn.secondary:hover,
@@ -321,6 +326,7 @@ ol {
 
   border-radius: 50%;
   background-color: var(--accent-color);
+  outline: transparent;
 }
 
 .team-member-link-icon {
@@ -358,6 +364,7 @@ ol {
   align-items: center;
   border: 1px solid var(--customers-border-color);
   border-radius: 4px;
+  outline: transparent;
 }
 
 .customer-item-icon {
@@ -409,6 +416,7 @@ ol {
   height: 40px;
   background-color: var(--footer-opaciti-white);
   border-radius: 50%;
+  outline: transparent;
 }
 
 .footer-media-link-item {
@@ -456,9 +464,15 @@ ol {
   width: 360px;
 }
 
-.samples-item:hover {
+.samples-item-link {
+  display: block;
+}
+
+.samples-item-link:hover,
+.samples-item-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  outline: transparent;
 }
 
 .samples-description {
